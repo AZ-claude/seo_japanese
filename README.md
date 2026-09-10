@@ -29,12 +29,15 @@ V1はYAGNIを徹底し、fine-tuningや大規模MLOpsを先に作らない。
 
 ## Documents
 
+- `AGENTS.md` — Codex向けの作業ルールと優先順位
 - `docs/HANDOFF.md` — 調査から実装までのハンドオフ
 - `docs/DESIGN.md` — V1アーキテクチャ・API・受入条件
 - `docs/UPSTREAM.md` — `blader/humanizer` の採用理由と取り込み方針
 - `docs/RESEARCH_NOTES.md` — 元PDFから採用した設計原則
 - `docs/CODEX_GOAL.md` — Codexにそのまま渡せる実装指示
-- `docs/source/AI生成文を不自然なAI文から脱却させるための設計・評価・運用戦略.pdf` — 調査元PDF
+- `docs/source/README.md` — 調査元PDFの出典・保管方針
+
+元PDFの実装に必要な内容は上記資料へ抽出済み。GitHub接続にはバイナリファイルを直接アップロードするactionがないため、元PDF本体は今回の自動ハンドオフでは未コミット。PDF本体を後から置く場合は `docs/source/` に保管する。
 
 ## Intended integration
 
