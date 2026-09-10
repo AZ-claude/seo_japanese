@@ -13,11 +13,16 @@ AI detector回避ではない。日本語母語話者にとって自然・具体
 
 参照資料:
 - README.md
+- AGENTS.md
 - docs/HANDOFF.md
 - docs/DESIGN.md
 - docs/RESEARCH_NOTES.md
 - docs/UPSTREAM.md
-- docs/source/AI生成文を不自然なAI文から脱却させるための設計・評価・運用戦略.pdf
+- docs/source/README.md
+
+元調査PDF:
+「AI生成文を『不自然なAI文』から脱却させるための設計・評価・運用戦略」
+今回のGitHub自動ハンドオフではバイナリPDF本体は未コミットだが、V1実装に必要な判断事項は上記docsへ抽出済み。PDFが後からdocs/source/に追加された場合は補助原典として読むこと。
 
 最初に必ず:
 1. 上記docsを全て読む。
